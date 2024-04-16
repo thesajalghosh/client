@@ -1,0 +1,54 @@
+.three__line__icon {
+  display: none;
+}
+.chat__side__bar {
+  height: 100vh;
+}
+.chat__sidebar__cross__icon {
+  display: none;
+}
+.chat {
+  width: 100vw;
+  height: 100vh;
+}
+.chat__main {
+  width: 100%;
+  height: 100%;
+}
+.chat__mainHeader {
+}
+@media only screen and (max-width: 600px) {
+  .three__line__icon {
+    display: inline;
+  }
+  .chat__side__bar {
+    display: none;
+  }
+  .after__click__button {
+    position: absolute;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    display: inline !important;
+  }
+  .chat__sidebar__cross__icon {
+    display: inline;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  .chat__mainHeader {
+    width: 100vw;
+  }
+  .chat__footer__section {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+  .chat__mainHeader {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 122;
+  }
+}
